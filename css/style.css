@@ -9682,3 +9682,24 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ffbd39;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#topBtn:hover {
+  background-color: #555;
+}
